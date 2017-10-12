@@ -16,6 +16,19 @@ h1 {
   color: white;
 }
 
+button {
+  background-color: #D48EDD;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 8px;
+  font-family: helvetica;
+}
+
+button:hover{background-color: #3D84A8;}
+
 .inputSection {
   margin: 50px 0px 80px 0px;
   width: 400px;
@@ -35,15 +48,10 @@ input {
   margin-top: 10px;
 }
 
-button {
-  background-color: #D48EDD;
-  border: none;
-  color: white;
-  padding: 10px 24px;
-  text-align: center;
-  font-size: 14px;
-  border-radius: 8px;
-  font-family: helvetica;
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
-
-button:hover{background-color: #3D84A8;}
