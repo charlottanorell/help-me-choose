@@ -54,4 +54,7 @@ input {
   justify-content: center;
   align-items: center;
   font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFA8B8;
+  font-weight: bold;
 }
